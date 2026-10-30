@@ -14,12 +14,12 @@
 ### What the notebook covers
 | Phase | Module | Topics |
 |---|---|---|
-| I | 2 | Data loading, inspection, missing values, cleaning, feature engineering |
-| I | 3 | Descriptive statistics, univariate (1D) analysis |
-| II | 4 | Bivariate (2D), multivariate (3D) and correlation analysis |
-| II | 5 | K-Means and hierarchical clustering |
-| III | 6 | Principal Component Analysis (scree plot, loadings, biplot, 3D projection) |
-| III | 7 | Logistic Regression classifier for signs of mental illness (confusion matrix, ROC-AUC, cross-validation, odds ratios) |
+| I | 2 – Data Transformation | Replacing values, deduplication, missing data (deletion, imputation, MLE), discretization and binning |
+| I | 3 – Correlation Analysis and Time Series Analysis | Univariate, bivariate, multivariate and correlation analysis; time-based indexing, resampling, grouping |
+| I/II | 4 – Data Summarization and Visualization | Summary measures, contingency tables and chi-square tests, n-D analysis, dot chart, outlier detection |
+| II | 5 – Clustering Algorithms | K-Means, hierarchical agglomerative clustering, outlier detection using clustering |
+| III | 6 – Dimensionality Reduction | PCA (scree plot, loadings, biplot, 3D projection) and SVD |
+| III | 7 – Model Development and Evaluation | Logistic Regression classifier: accuracy, precision/recall/F1, ROC-AUC, cross-validation, odds ratios |
 
 ### Dataset
 `shootings.csv` (4,895 rows, 15 columns), loaded directly from the faculty repository:
